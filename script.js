@@ -5,6 +5,7 @@ const images = ["Demo.png", "Demo.png", "Demo.png", "Demo.png", "Demo.png", "Dem
 const imageSizes = [100, 100, 100, 100, 100, 100]; // Here enter how many pixels wide you want your image to be. Do not put in "".
 
 
+
 for(i = 0; i<products.length; i++) {
     let priceNode = document.createTextNode(prices[i]);
     let productNode = document.createTextNode(products[i]);
