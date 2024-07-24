@@ -1,7 +1,7 @@
-const prices = ["$4.99", "$5.00", "54", "45", "45", "45"]; // Add prices here, seperated by commas, and put in "".
-const products = ["Oreos", "whfgerjfger", "45", "45", "45", "45"]; // Add rpoducts here, seperated by commas and put in "". For example: "2 coords of wood"
-const descriptions = ["Yum", "kerjhgkerhg", "45", "45", "45", "45"]; // Here you can put descriptions about the products. Works the same as above.
-const images = ["Demo.png", "Demo.png", "Demo.png", "Demo.png", "Demo.png", "Demo.png"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
+const prices = ["$4.99", "$5.00", "money", "45", "45", "45"]; // Add prices here, seperated by commas, and put in "".
+const products = ["Oreos", "whfgerjfger", "more money", "45", "45", "45"]; // Add rpoducts here, seperated by commas and put in "". For example: "2 coords of wood"
+const descriptions = ["Yum", "kerjhgkerhg", "even more money", "45", "45", "45"]; // Here you can put descriptions about the products. Works the same as above.
+const images = ["Demo.png", "Demo.png", "money.jpeg", "Demo.png", "Demo.png", "Demo.png"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
 const imageSizes = [100, 100, 100, 100, 100, 100]; // Here enter how many pixels wide you want your image to be. Do not put in "".
 
 
