@@ -3,6 +3,7 @@ const products = ["Truck Load", "Trailer Load (2 Cord Seasoned Wood)", "Trailer 
 const descriptions = ["Bring your own truck and get it filled.", "We bring a trailer load to you.", "We bring a trailer load to you.", "Choose how many cord you want.", "Stop at our stand and pick them up."]; // Here you can put descriptions about the products. Works the same as above.
 const images = ["TrailerLoad.jpg", "TrailerLoad.jpg", "TrailerLoad.jpg", "TrailerLoad.jpg", "FirewoodStand.jpg"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
 const imageSizes = [100, 100, 100, 100, 100]; // Here enter how many pixels wide you want your image to be. Do not put in "".
+const imageHeights = [100, 100, 100, 100, 100]; // Same as imageSizes.
 
 
 
@@ -25,6 +26,7 @@ for(i = 0; i<products.length; i++) {
     let image = document.createElement("img");
     image.src = images[i];
     image.width = imageSizes[i];
+    image.height = imageHeights[i];
 
     innertextcontainer.appendChild(product);
     innertextcontainer.appendChild(desc);
