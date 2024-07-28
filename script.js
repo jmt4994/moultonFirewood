@@ -4,6 +4,8 @@ const descriptions = ["Bring your own truck and get it filled.", "We bring a tra
 const images = ["TrailerLoad.jpg", "TrailerLoad.jpg", "TrailerLoad.jpg", "TrailerLoad.jpg", "FirewoodStand.jpg"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
 const imageSizes = [100, 100, 100, 100, 100]; // Here enter how many pixels wide you want your image to be. Do not put in "".
 
+alert("GitHub is dumb :D");
+
 
 
 for(i = 0; i<products.length; i++) {
