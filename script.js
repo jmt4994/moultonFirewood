@@ -1,7 +1,7 @@
 const prices = ["Price based on truck bed size.", "$800 + shipping", "$750 + shipping", "$400(Seasoned) 375(Green) + shipping", "45", "45"]; // Add prices here, seperated by commas, and put in "".
 const products = ["Truck Load", "Trailer Load (2 Cord Seasoned Wood)", "Trailer Load (2 Cord green wood)", "By the cord", "45", "45"]; // Add rpoducts here, seperated by commas and put in "". For example: "2 coords of wood"
-const descriptions = ["Bring your own truck and get it filled.", "We bring a trailer load to you.", "Choose how many cord you want.", "45", "45", "45"]; // Here you can put descriptions about the products. Works the same as above.
-const images = ["Demo.png", "Demo.png", "Demo.png", "Demo.png", "Demo.png", "Demo.png"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
+const descriptions = ["Bring your own truck and get it filled.", "We bring a trailer load to you.", "We bring a trailer load to you.", "Choose how many cord you want.", "45", "45"]; // Here you can put descriptions about the products. Works the same as above.
+const images = ["Demo.png", "TrailerLoad.jpg", "TrailerLoad.jpg", "Demo.png", "Demo.png", "Demo.png"]; // Here you put the file directory of the images of the products. Make sure to put them in "" and seperate them by commas.
 const imageSizes = [100, 100, 100, 100, 100, 100]; // Here enter how many pixels wide you want your image to be. Do not put in "".
 
 
