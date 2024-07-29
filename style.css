@@ -25,7 +25,7 @@
 body {
     margin: 0px 0px;
     padding: 0px 0px;
-    background-color: rgb(255, 245, 225);
+    background-color: rgb(0, 0, 0);
     overflow-x: clip;
     position: relative;
 }
@@ -393,7 +393,7 @@ a {
 
 
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1025px) and (min-width: 926px) {
     #img1, #img2, #img3 {
         width: 150px;
     }
@@ -402,14 +402,14 @@ a {
     }
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 925px) and (min-width: 851px) {
     .homecontentcontainer {
         display: flexbox;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width: 775px) {
     .productobjects {
         grid-template-columns: auto auto auto;
     }
@@ -418,7 +418,7 @@ a {
     }
 }
 
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 774px) and (min-width: 741px) {
     .logocontainer, .aboutlinkcontainer, .pricinglinkcontainer, .contactlinkcontainer, .navbargap1, .navbarlinkcontainer {
         width: 100vw;
     }
@@ -440,19 +440,19 @@ a {
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 740px) and (min-width: 651px) {
     #footergap1, #footergap2 {
         width: 50px;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (min-width: 601px) {
     .productobjects {
         grid-template-columns: auto auto;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 551px) {
     #img1, #img2, #img3 {
         width: 100px;
     }
@@ -461,7 +461,7 @@ a {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) and (min-width: 501px) {
     .footercontentcontainer {
         display: block;
     }
@@ -470,7 +470,7 @@ a {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 481px) {
     .aboutcontentcontainer, .homecontentcontainer, .contactcontentcontainer {
         width: 80%;
     }
@@ -484,13 +484,13 @@ a {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (min-width: 391px) {
     .productobjects {
         grid-template-columns: auto;
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) and (min-width: 1px) {
     #img1, #img2, #img3 {
         width: 75px;
     }
