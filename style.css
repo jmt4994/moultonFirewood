@@ -393,7 +393,7 @@ a {
 
 
 
-@media all (max-width: 1025px) {
+@media screen and (max-width: 1025px) {
     #img1, #img2, #img3 {
         width: 150px;
     }
@@ -402,14 +402,14 @@ a {
     }
 }
 
-@media all (max-width: 925px) {
+@media screen and (max-width: 925px) {
     .homecontentcontainer {
         display: flexbox;
         width: 100%;
     }
 }
 
-@media all (max-width: 850px) {
+@media screen and (max-width: 850px) {
     .productobjects {
         grid-template-columns: auto auto auto;
     }
@@ -418,7 +418,7 @@ a {
     }
 }
 
-@media all (max-width: 774px) {
+@media screen and (max-width: 774px) {
     .logocontainer, .aboutlinkcontainer, .pricinglinkcontainer, .contactlinkcontainer, .navbargap1, .navbarlinkcontainer {
         width: 100vw;
     }
@@ -440,19 +440,19 @@ a {
     }
 }
 
-@media all (max-width: 740px) {
+@media screen and (max-width: 740px) {
     #footergap1, #footergap2 {
         width: 50px;
     }
 }
 
-@media all (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .productobjects {
         grid-template-columns: auto auto;
     }
 }
 
-@media all (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #img1, #img2, #img3 {
         width: 100px;
     }
@@ -461,7 +461,7 @@ a {
     }
 }
 
-@media all (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .footercontentcontainer {
         display: block;
     }
@@ -470,7 +470,7 @@ a {
     }
 }
 
-@media all (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .aboutcontentcontainer, .homecontentcontainer, .contactcontentcontainer {
         width: 80%;
     }
@@ -484,13 +484,13 @@ a {
     }
 }
 
-@media all (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .productobjects {
         grid-template-columns: auto;
     }
 }
 
-@media all (max-width: 390px) {
+@media screen and (max-width: 390px) {
     #img1, #img2, #img3 {
         width: 75px;
     }
