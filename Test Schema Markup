@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Moulton Firewood",
+  "image": "",
+  "@id": "",
+  "url": "https://jmt4994.github.io/moultonFirewood/",
+  "telephone": "8023557887",
+  "priceRange": "$8.00 to $800.00+",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Industrial Avenue",
+    "addressLocality": "Williston",
+    "addressRegion": "VT",
+    "postalCode": "",
+    "addressCountry": "US"
+  }  
+}
+</script>
