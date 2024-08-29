@@ -15,6 +15,24 @@
     "addressRegion": "VT",
     "postalCode": "",
     "addressCountry": "US"
-  }  
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://github.com/jmt4994",
+    "https://jmt4994.github.io/moultonFirewood/"
+  ]
 }
 </script>
